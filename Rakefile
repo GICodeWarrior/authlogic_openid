@@ -4,8 +4,8 @@ require "rubygems"
 require "hoe"
 require File.dirname(__FILE__) << "/lib/authlogic_openid/version"
 
-Hoe.new("Authlogic OpenID", AuthlogicOpenid::Version::STRING) do |p|
-  p.name = "authlogic-oid"
+Hoe.new("Heyzap Authlogic OpenID", AuthlogicOpenid::Version::STRING) do |p|
+  p.name = "heyzap-authlogic-oid"
   p.rubyforge_name = "authlogic-oid"
   p.author = "Ben Johnson of Binary Logic"
   p.email  = 'bjohnson@binarylogic.com'
